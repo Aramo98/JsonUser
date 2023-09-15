@@ -1,0 +1,41 @@
+[
+        {
+            "id":1,
+            "image":"team2.jpg",
+            "firstname":"John",
+            "lastname":"Doe",
+            "age": 18
+        },
+        {
+
+            "id":2,
+            "image":"335741-zero.jpg",
+            "firstname":"Petter",
+            "lastname":"Smith",
+            "age": 20
+        },
+        {
+            "id":3,
+            "image":"nastya-ulybka-portret.jpg",
+            "firstname":"Anna",
+            "lastname":"Petrov",
+            "age": 32
+        },
+        {
+            "id":4,
+            "image":"Untitled-design-6-2.jpg",
+            "firstname":"Alex",
+            "lastname":"Alexov",
+            "age": 45
+        },
+        {
+            "id":5,
+            "image":"MbM4qFrArWo.jpg",
+            "firstname":"Alice",
+            "lastname":"May",
+            "age": 32
+        }
+    
+    ]
+
+      

@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 15px;
+
+}
+.data_block{
+    width: 280px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.data_block>.image_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 150px;
+}
+
+.data_block>.image_block>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.nameAndSurname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userBtn{
+padding: 10px 25px;
+border: none;
+text-transform: uppercase;  
+cursor: pointer;
+transition: all 0.5s ease;
+}
+
+.userBtn:hover{
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+
+.secondContainer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+gap: 15px;
+}
+
+.generalBlock{
+    width: 450px;
+    height: 250px;
+    border: 1px solid black;
+width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+gap: 3px;
+position: relative;
+}
+
+.imgBlock{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBlock>img{
+    width: 100%;
+    height: 100%;object-fit: cover;
+}
+.deleteButton{
+    width: 30px;
+    height: 30px;
+border: none;
+cursor: pointer;
+position: absolute;
+top: 15px;
+right: 15px;
+}
+
+.deleteButton>i{
+    font-size: 25px;
+}
+
